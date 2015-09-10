@@ -2,6 +2,7 @@
 <header>
 <p>Researcher, designer, so what?</p>
 </header>
+<body>
 <p>This is a site where I'll be learning-out-loud about damn near everything.</p>
 <p>I decided to use my research and design skills to first learn more about things I care about, and then to contribute to those things.</p>
 <p>This is the list I ended up with:</p>
@@ -49,8 +50,8 @@
 <p>Well, some of these are more important than others. Some of these are a means to other things on the list.</p>
 <p>Which is how I am starting to view research and design and writing. They can be beautiful (especially writing, <3 you, words), but they are primarily means to an end.</p>
 <p>So, now what?</p>
-Copyright Kristi Leach 2015 | 
+</body>
+<footer>Copyright Kristi Leach 2015 | 
 kristileach.com by Kristi Leach is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-Based on a work at kristileach.com.
-Permissions beyond the scope of this license may be available at kristileach.com/contact
+</footer>
 </html>
