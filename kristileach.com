@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<header>
-<p>Researcher, designer, so what?</p>
-</header>
+<head>
+<meta charset="UTF-8">
+<p>Kristi Leach: Researcher, designer, so what?</p>
+</head>
 <body>
 <p>This is a site where I'll be learning-out-loud about damn near everything.</p>
 <p>I decided to use my research and design skills to first learn more about things I care about, and then to contribute to those things.</p>
