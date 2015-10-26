@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<header>
+<head>
+<meta charset="UTF-8">
 <p>Kristi Leach: Researcher, designer, so what?</p>
-</header>
+</head>
 <body>
 <h1>The Screamer in a City of Writers</h1>
 <p>First off, sorry about the HTML markup. One day soon this will be a website at kristileach.com that you can read without HTML tags, but I haven't gotten that far. Welcome, though. Hi!</p>
