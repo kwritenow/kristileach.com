@@ -1,0 +1,19 @@
+title: Kristi Leach
+email: kristi@uxlocal.com
+description: > # this means to ignore newlines until "baseurl:"
+    Kristi Leach's portfolio site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kristileach.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+navigation:
+- text: Kristi Leach
+  url: /
+- text: Contact
+  url: /contact.html
+- text: Writing
+  url: /writing.html
+- text: Podcast
+  url: /podcast.html
+exclude: ['Gemfile.lock', 'Gemfile']

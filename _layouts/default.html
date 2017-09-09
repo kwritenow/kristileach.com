@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kristi Leach | Welcome</title>
+        <link rel="stylesheet" href="/css/foundation.min.css">
+        <link rel="stylesheet" href="/css/app.css">
+    </head>
+    <body>
+        <!-- Start Top Bar -->
+        <div class="grid-container fluid">
+            <div class="grid-x grid-margin-x">
+                <div class="small-10 small-offset-1 cell">
+                    <div class="top-bar">
+                        <div class="top-bar-left">
+                            <ul class="menu">
+                                {% for link in site.navigation %}
+                                    {% if page.url == link.url %}
+                                        <li class="menu-text">
+                                            <h2>{{ link.text }}</h2>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                                {% for link in site.navigation %}
+                                    {% if page.url != link.url %}
+                                        <li>
+                                            <a href="{{ link.url }}">{{ link.text }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Bar -->
+        <div class="grid-container fluid">
+            {{ content }}
+        </div>
+        <hr />
+        <footer class="grid-container fluid">
+            <div class="grid-x grid-margin-x">
+                <div class="small-10 small-offset-1 cell">
+                    <p>
+                    kristileach.com by Kristi Leach is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
