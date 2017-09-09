@@ -24,4 +24,7 @@ li.menu-text {
     .menu a {
         padding-left: 0;
     }
+    .card.front .image-container {
+        height: 100px;
+    }
 }
