@@ -10,8 +10,6 @@ markdown: kramdown
 navigation:
 - text: Kristi Leach
   url: /
-- text: Contact
-  url: /contact.html
 - text: Writing
   url: /writing.html
 - text: Podcast

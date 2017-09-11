@@ -2,7 +2,11 @@
 layout: default
 ---
 <div class="grid-x grid-margin-x">
-    <div class="small-10 small-offset-1 cell">
-        <p>This is where the content goes</p>
+    <div class="small-4 small-offset-1 cell">
+        <form method="POST" action="http://formspree.io/kristi@uxlocal.com">
+            <input name="email" placeholder="Your email" type="email">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <input type="submit" class="button" value="Submit">
+        </form>
     </div>
 </div>
