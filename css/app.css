@@ -17,7 +17,8 @@ li.menu-text {
 
 @media screen and (min-width: 40em) {
     .menu a {
-        margin-top: 32px;
+        margin-top: 29px;
+	padding: 0.7rem;
     }
 }
 @media screen and (max-width: 39.9375em) {

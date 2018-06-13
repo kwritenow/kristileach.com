@@ -16,20 +16,17 @@
                     <div class="top-bar">
                         <div class="top-bar-left">
                             <ul class="menu">
-                                {% for link in site.navigation %}
-                                    {% if page.url == link.url %}
-                                        <li class="menu-text">
-                                            <h2>{{ link.text }}</h2>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
-                                {% for link in site.navigation %}
-                                    {% if page.url != link.url %}
-                                        <li>
-                                            <a href="{{ link.url }}">{{ link.text }}</a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
+                                <li class="menu-text">
+                                    <h2>
+				        Kristi Leach
+				    </h2>
+                                </li>
+			        <li>
+			   	    <a href="https://www.behance.net/kristileach" target="_blank">Behance</a>	
+			       	</li>
+			        <li>
+			   	    <a href="https://www.linkedin.com/in/kristileach" target="_blank">LinkedIn</a>	
+			       	</li>
                             </ul>
                         </div>
                     </div>
@@ -43,12 +40,7 @@
         <hr />
         <footer class="grid-container fluid">
             <div class="grid-x grid-margin-x">
-                <div class="large-5 small-10 small-offset-1 cell">
-                    <p>
-                    kristileach.com by Kristi Leach is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    </p>
-                </div>
-                <div class="large-5 small-10 small-offset-1 medium-offset-0 cell">
+                <div class="large-10 small-10 small-offset-1 cell">
                     <p>
                     <i class="fa fa-envelope"></i> kristi@uxlocal.com | <i class="fa fa-phone"></i> (773) 313-3731
                     </p>
